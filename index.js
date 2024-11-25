@@ -6,7 +6,7 @@ const PORT = 8000;
 
 // Define a route for fetching data from the target URL
 app.get('/', (req, res) => {
-    res.json({"msg": " Welcome to the custom proxy, use service like : http://localhost:3000/fetch-data?url=https://example.com/api/data"})
+    res.json({"msg": " Welcome to the custom proxy, use service like : http://localhost:8000/fetch-data?url=https://example.com/api/data"})
 });
 
 app.get('/fetch-data', async (req, res) => {
